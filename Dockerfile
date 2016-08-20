@@ -68,14 +68,11 @@ RUN	apk update && \
  
 
 VOLUME ["/app","/web","/etc/apache2/conf.d/vhosts","/web/www/html"]
-#add PHP-mongo driver v. 1.6.14
 
 ADD run.sh /app/run.sh
-#RUN chmod -R 775 /app
 
 EXPOSE 80 443
 
 ENTRYPOINT ["/app/run.sh"]
-#CMD [ "/bin/bash"]
 
 

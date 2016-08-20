@@ -14,3 +14,4 @@ echo "<?php echo phpinfo(); ?>" > /var/www/localhost/htdocs/info.php
 echo "IncludeOptional /etc/apache2/conf.d/vhosts/*.conf" >> /etc/apache2/httpd.conf
 
 exec /usr/sbin/apachectl -DFOREGROUND
+
