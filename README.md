@@ -12,7 +12,7 @@ This image features:
 
 ## Versions
 
-- `1.0.0`, `latest` [(Dockerfile)](https://github.com/edaspra/alpine-apache2-php56/tree/alpine-apache2-php56-v1.0.0/alpine-apache)
+- `1.0.0`, `latest` [(Dockerfile)](https://github.com/edaspra/alpine-apache2-php56/blob/master/Dockerfile)
 
 
 ## Usage
